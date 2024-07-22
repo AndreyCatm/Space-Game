@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     canvas.height = canvasHeight;
 
     let score = 0;
-    let coins = 0;
+    let coins = 10000;
     let gameInterval;
     let meteors = [];
     let bullets = [];

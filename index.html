@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Defender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="score">Score: 0</div>
+        <div id="coins">Coins: 0</div>
+        <button id="startGame">Start Game</button>
+        <div class="upgrade-section">
+            <button id="speedUpgrade">Speed Upgrade (100 coins)</button>
+            <button id="shieldUpgrade">Shield (500 coins)</button>
+            <div id="shieldIcon" class="hidden">🛡️</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

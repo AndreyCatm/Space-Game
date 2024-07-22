@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    position: relative;
+    text-align: center;
+}
+
+#gameCanvas {
+    border: 2px solid #fff;
+    background-image: url('theme.png');
+    background-size: cover;
+}
+
+#score, #coins {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#startGame {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.upgrade-section {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#shieldIcon {
+    font-size: 24px;
+    color: #0f0;
+}
